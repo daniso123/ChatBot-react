@@ -1,0 +1,41 @@
+.body {
+
+  height: 100vh;
+  margin:0;
+  display: grid;
+  place-items: center;
+  
+
+}
+.box{
+    width: 300px;
+    
+}
+.w-6{
+    width: 1.5em;
+    margin-left: 10px;
+}
+.h-6{
+    height: 1.5em;
+}
+.flex{
+    display: flex;
+    
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.balloon{
+    float:right;
+      width: 200px;
+      height: 100px;
+      background-color:#fff;
+      border-top:15px solid #fff;
+      border-right:10px solid transparent;
+      background-clip: padding-box;
+      padding: 0 10px 10px 10px;
+      border-radius: 12px;
+      margin-left: 90px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
