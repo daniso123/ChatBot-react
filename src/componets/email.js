@@ -33,7 +33,7 @@ const Email = () => {
         <div>
             <img className="emailImg" src={bot} alt="Chatnilton" />
             <div className="email">
-                <p>Olá, eu sou o Chatnilton, tudo bem?Para começarmos, preciso saber seu nome.</p>
+                <p>Agora me fala seu e-mail, por gentileza.</p>
             </div>
 
 
