@@ -19,7 +19,7 @@ const Email = () => {
 
        const name = ev.target;
         await api.post('/users', name)
-        setName(await api.post('/users', name))
+    
 
             //.then( (res)=>res.json())
              
