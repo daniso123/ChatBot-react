@@ -1,0 +1,54 @@
+h1, p {
+    font-family: Lato;
+  }
+
+.botImg{
+  width: 70px;
+  height: 70px;
+  border-radius: 10%;
+  margin-left: 35px;
+
+}
+.botCard{
+  width: 90%;
+  background-color:#fff;
+  border-top:15px solid #fff;
+  border-left:10px solid transparent;
+  background-clip: padding-box;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+  margin-left: 50px;
+  color: rgb(15, 15, 15);
+  margin-bottom: 10px;
+}
+.userCard{
+  float:right;
+  width: 20px;
+  height: 10px;
+  background-color:#fff;
+  border-top:15px solid #fff;
+  border-right:10px solid transparent;
+  background-clip: padding-box;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+@media only screen and (min-width: 992px) {
+    .inputBot {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 21px;
+    }
+  
+    .userCard {
+      width: 50%;
+    }
+  
+    .botCard {
+      width: 50%;
+    }
+  }

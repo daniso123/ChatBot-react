@@ -1,0 +1,24 @@
+h1, p {
+    font-family: Lato;
+  }
+  .messagesSection {
+    min-height: 50vh;
+    max-height: 50vh;
+    margin-top: 20px;
+    overflow-y: auto;
+  }
+  .messagesSection {
+    height: 90%;
+  }.messagesSection::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .messagesSection {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  
+  .messagesContainer {
+    display: flex;
+    flex-direction: column;
+  }
